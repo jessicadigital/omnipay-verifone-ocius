@@ -9,7 +9,7 @@ use Omnipay\Common\Message\AbstractRequest;
  */
 class PurchaseRequest extends AbstractRequest
 {
-    protected $liveEndpoint = 'TBA';
+    protected $liveEndpoint = 'https://pp2.cxmlpg.com/PayPage.aspx';
     protected $testEndpoint = 'https://paypage2-test.cxmlpg.com/paypage.aspx';
 
     public function setAccountId($value)
